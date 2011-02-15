@@ -1,0 +1,7 @@
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.ServiceImpl\bin\Debug\TripleLands.Blogger.ServiceImpl.dll
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.ServiceImpl\bin\Debug\TripleLands.Blogger.ServiceImpl.pdb
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.ServiceImpl\bin\Debug\TripleLands.Blogger.Domain.dll
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.ServiceImpl\bin\Debug\TripleLands.Blogger.Domain.pdb
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.ServiceImpl\obj\Debug\ResolveAssemblyReference.cache
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.ServiceImpl\obj\Debug\TripleLands.Blogger.ServiceImpl.dll
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.ServiceImpl\obj\Debug\TripleLands.Blogger.ServiceImpl.pdb
