@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0A5BAACA-C488-4FB5-B5FA-A482D72C6DF2}</ProjectGuid>
+    <ProjectGuid>{758B26B6-1688-43CC-AF26-30598AB90F4B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TripleLands.Blogger.EndToEndTest</RootNamespace>
-    <AssemblyName>TripleLands.Blogger.EndToEndTest</AssemblyName>
+    <RootNamespace>TripleLands.Blogger.Service</RootNamespace>
+    <AssemblyName>TripleLands.Blogger.Service</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework">
-      <HintPath>..\..\..\tools\NUnit\nunit.framework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,17 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlogService.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="IBlogService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="When_new_post_entry.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\app\TripleLands.Blogger.Domain\TripleLands.Blogger.Domain.csproj">
+    <ProjectReference Include="..\TripleLands.Blogger.Domain\TripleLands.Blogger.Domain.csproj">
       <Project>{B7E2D402-8A48-47D4-8D09-19E09D7134F1}</Project>
       <Name>TripleLands.Blogger.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\app\TripleLands.Blogger.Service\TripleLands.Blogger.Service.csproj">
-      <Project>{758B26B6-1688-43CC-AF26-30598AB90F4B}</Project>
-      <Name>TripleLands.Blogger.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

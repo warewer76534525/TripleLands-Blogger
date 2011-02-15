@@ -5,7 +5,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{644FEE2B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleLands.Blogger.EndToEndTest", "src\specs\TripleLands.Blogger.EndToEndTest\TripleLands.Blogger.EndToEndTest.csproj", "{0A5BAACA-C488-4FB5-B5FA-A482D72C6DF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleLands.Blogger.App", "src\app\TripleLands.Blogger.App\TripleLands.Blogger.App.csproj", "{C8973450-0D40-4FCA-BC5A-399F18A0E9D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleLands.Blogger.Domain", "src\app\TripleLands.Blogger.Domain\TripleLands.Blogger.Domain.csproj", "{B7E2D402-8A48-47D4-8D09-19E09D7134F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleLands.Blogger.Service", "src\app\TripleLands.Blogger.Service\TripleLands.Blogger.Service.csproj", "{758B26B6-1688-43CC-AF26-30598AB90F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleLands.Blogger.ServiceImpl", "src\app\TripleLands.Blogger.ServiceImpl\TripleLands.Blogger.ServiceImpl.csproj", "{6C47FD60-5CCB-4945-B604-2513CD039CF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,18 @@ Global
 		{0A5BAACA-C488-4FB5-B5FA-A482D72C6DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A5BAACA-C488-4FB5-B5FA-A482D72C6DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A5BAACA-C488-4FB5-B5FA-A482D72C6DF2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C8973450-0D40-4FCA-BC5A-399F18A0E9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8973450-0D40-4FCA-BC5A-399F18A0E9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8973450-0D40-4FCA-BC5A-399F18A0E9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8973450-0D40-4FCA-BC5A-399F18A0E9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E2D402-8A48-47D4-8D09-19E09D7134F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E2D402-8A48-47D4-8D09-19E09D7134F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E2D402-8A48-47D4-8D09-19E09D7134F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E2D402-8A48-47D4-8D09-19E09D7134F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758B26B6-1688-43CC-AF26-30598AB90F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758B26B6-1688-43CC-AF26-30598AB90F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758B26B6-1688-43CC-AF26-30598AB90F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758B26B6-1688-43CC-AF26-30598AB90F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C47FD60-5CCB-4945-B604-2513CD039CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C47FD60-5CCB-4945-B604-2513CD039CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C47FD60-5CCB-4945-B604-2513CD039CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C47FD60-5CCB-4945-B604-2513CD039CF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

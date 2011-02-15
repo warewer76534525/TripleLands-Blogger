@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace TripleLands.Blogger.App
+namespace TripleLands.Blogger.Service
 {
     public class Class1
     {
