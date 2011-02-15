@@ -34,6 +34,9 @@
     <Reference Include="nunit.framework">
       <HintPath>..\..\..\tools\NUnit\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Spring.Core">
+      <HintPath>..\..\..\external-lib\Spring\Spring.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InversionOfControlTester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="springcomponent\Calculator.cs" />
     <Compile Include="When_new_post_entry.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,10 +56,23 @@
       <Project>{B7E2D402-8A48-47D4-8D09-19E09D7134F1}</Project>
       <Name>TripleLands.Blogger.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\app\TripleLands.Blogger.ServiceImpl\TripleLands.Blogger.ServiceImpl.csproj">
+      <Project>{6C47FD60-5CCB-4945-B604-2513CD039CF9}</Project>
+      <Name>TripleLands.Blogger.ServiceImpl</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\app\TripleLands.Blogger.Service\TripleLands.Blogger.Service.csproj">
       <Project>{758B26B6-1688-43CC-AF26-30598AB90F4B}</Project>
       <Name>TripleLands.Blogger.Service</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="application-context.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

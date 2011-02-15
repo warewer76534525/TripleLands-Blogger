@@ -9,3 +9,12 @@ D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bi
 D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.Service.dll
 D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.Domain.pdb
 D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.Service.pdb
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.Dao.dll
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.Dao.pdb
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.EndToEndTest.dll.config
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\Spring.Core.dll
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\Common.Logging.dll
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\Spring.Core.pdb
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\Spring.Core.xml
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.ServiceImpl.dll
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.ServiceImpl.pdb
