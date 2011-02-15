@@ -1,0 +1,9 @@
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\obj\Debug\ResolveAssemblyReference.cache
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.EndToEndTest.dll
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.EndToEndTest.pdb
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\nunit.framework.dll
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.App.dll
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.App.pdb
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\nunit.framework.xml
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\obj\Debug\TripleLands.Blogger.EndToEndTest.dll
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\obj\Debug\TripleLands.Blogger.EndToEndTest.pdb

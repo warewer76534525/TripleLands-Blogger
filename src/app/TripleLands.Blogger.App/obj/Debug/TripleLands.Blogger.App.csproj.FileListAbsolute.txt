@@ -1,0 +1,5 @@
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.App\bin\Debug\TripleLands.Blogger.App.dll
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.App\bin\Debug\TripleLands.Blogger.App.pdb
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.App\obj\Debug\ResolveAssemblyReference.cache
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.App\obj\Debug\TripleLands.Blogger.App.dll
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.App\obj\Debug\TripleLands.Blogger.App.pdb
