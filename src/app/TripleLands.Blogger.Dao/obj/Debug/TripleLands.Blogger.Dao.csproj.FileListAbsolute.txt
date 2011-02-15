@@ -1,0 +1,7 @@
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Dao\bin\Debug\TripleLands.Blogger.Dao.dll
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Dao\bin\Debug\TripleLands.Blogger.Dao.pdb
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Dao\bin\Debug\TripleLands.Blogger.Domain.dll
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Dao\bin\Debug\TripleLands.Blogger.Domain.pdb
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Dao\obj\Debug\ResolveAssemblyReference.cache
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Dao\obj\Debug\TripleLands.Blogger.Dao.dll
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Dao\obj\Debug\TripleLands.Blogger.Dao.pdb

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleLands.Blogger.Service
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleLands.Blogger.ServiceImpl", "src\app\TripleLands.Blogger.ServiceImpl\TripleLands.Blogger.ServiceImpl.csproj", "{6C47FD60-5CCB-4945-B604-2513CD039CF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleLands.Blogger.Dao", "src\app\TripleLands.Blogger.Dao\TripleLands.Blogger.Dao.csproj", "{F2DAB336-4273-496C-8C3C-9BC5701F4633}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6C47FD60-5CCB-4945-B604-2513CD039CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C47FD60-5CCB-4945-B604-2513CD039CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C47FD60-5CCB-4945-B604-2513CD039CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DAB336-4273-496C-8C3C-9BC5701F4633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DAB336-4273-496C-8C3C-9BC5701F4633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DAB336-4273-496C-8C3C-9BC5701F4633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DAB336-4273-496C-8C3C-9BC5701F4633}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
