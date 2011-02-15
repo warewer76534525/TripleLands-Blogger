@@ -5,3 +5,5 @@ D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Service\bin\Debug
 D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Service\bin\Debug\TripleLands.Blogger.Domain.pdb
 D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Service\obj\Debug\TripleLands.Blogger.Service.dll
 D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Service\obj\Debug\TripleLands.Blogger.Service.pdb
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Service\bin\Debug\TripleLands.Blogger.Dao.dll
+D:\tutorial\C#\TripleLands.Blogger\src\app\TripleLands.Blogger.Service\bin\Debug\TripleLands.Blogger.Dao.pdb

@@ -1,13 +1,16 @@
 ﻿using System;
 using TripleLands.Blogger.Domain;
+using TripleLands.Blogger.Dao;
 
 namespace TripleLands.Blogger.Service
 {
     public class BlogService : IBlogService
     {
+        IPostDao postDao;
+
         public void Post(Post post)
         {
-            throw new NotImplementedException();
+            postDao.Save(post);
         }
 
 
