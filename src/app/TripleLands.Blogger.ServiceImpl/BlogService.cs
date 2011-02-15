@@ -14,12 +14,14 @@ namespace TripleLands.Blogger.ServiceImpl
             postDao.Save(post);
         }
 
-
+        public IPostDao PostDao {
+            set { postDao = value; }
+        }
 
 
         public List<Post> GetRecentPost()
         {
-            return null ;
+            return null;
         }
     }
 }

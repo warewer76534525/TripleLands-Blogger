@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0A5BAACA-C488-4FB5-B5FA-A482D72C6DF2}</ProjectGuid>
+    <ProjectGuid>{093989F6-E911-48B9-8267-0B958B6BF918}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TripleLands.Blogger.EndToEndTest</RootNamespace>
-    <AssemblyName>TripleLands.Blogger.EndToEndTest</AssemblyName>
+    <RootNamespace>TripleLands.Blogger.DaoImpl</RootNamespace>
+    <AssemblyName>TripleLands.Blogger.DaoImpl</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,12 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework">
-      <HintPath>..\..\..\tools\NUnit\nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="Spring.Core">
-      <HintPath>..\..\..\external-lib\Spring\Spring.Core.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,34 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InversionOfControlTester.cs" />
+    <Compile Include="PostDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="springcomponent\Calculator.cs" />
-    <Compile Include="When_new_post_entry.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\app\TripleLands.Blogger.DaoImpl\TripleLands.Blogger.DaoImpl.csproj">
-      <Project>{093989F6-E911-48B9-8267-0B958B6BF918}</Project>
-      <Name>TripleLands.Blogger.DaoImpl</Name>
+    <ProjectReference Include="..\TripleLands.Blogger.Dao\TripleLands.Blogger.Dao.csproj">
+      <Project>{F2DAB336-4273-496C-8C3C-9BC5701F4633}</Project>
+      <Name>TripleLands.Blogger.Dao</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\app\TripleLands.Blogger.Domain\TripleLands.Blogger.Domain.csproj">
+    <ProjectReference Include="..\TripleLands.Blogger.Domain\TripleLands.Blogger.Domain.csproj">
       <Project>{B7E2D402-8A48-47D4-8D09-19E09D7134F1}</Project>
       <Name>TripleLands.Blogger.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\app\TripleLands.Blogger.ServiceImpl\TripleLands.Blogger.ServiceImpl.csproj">
-      <Project>{6C47FD60-5CCB-4945-B604-2513CD039CF9}</Project>
-      <Name>TripleLands.Blogger.ServiceImpl</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\app\TripleLands.Blogger.Service\TripleLands.Blogger.Service.csproj">
-      <Project>{758B26B6-1688-43CC-AF26-30598AB90F4B}</Project>
-      <Name>TripleLands.Blogger.Service</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

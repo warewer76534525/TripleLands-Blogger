@@ -40,13 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlogService.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TripleLands.Blogger.Dao\TripleLands.Blogger.Dao.csproj">
+      <Project>{F2DAB336-4273-496C-8C3C-9BC5701F4633}</Project>
+      <Name>TripleLands.Blogger.Dao</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TripleLands.Blogger.Domain\TripleLands.Blogger.Domain.csproj">
       <Project>{B7E2D402-8A48-47D4-8D09-19E09D7134F1}</Project>
       <Name>TripleLands.Blogger.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TripleLands.Blogger.Service\TripleLands.Blogger.Service.csproj">
+      <Project>{758B26B6-1688-43CC-AF26-30598AB90F4B}</Project>
+      <Name>TripleLands.Blogger.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

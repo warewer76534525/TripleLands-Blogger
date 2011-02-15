@@ -8,7 +8,7 @@
     <ProjectGuid>{758B26B6-1688-43CC-AF26-30598AB90F4B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TripleLands.Blogger.Service</RootNamespace>
+    <RootNamespace>TripleLands.Blogger.ServiceImpl</RootNamespace>
     <AssemblyName>TripleLands.Blogger.Service</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

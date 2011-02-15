@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 using TripleLands.Blogger.Domain;
-using TripleLands.Blogger.Service;
+using TripleLands.Blogger.ServiceImpl;
 using Spring.Context.Support;
 using Spring.Context;
 

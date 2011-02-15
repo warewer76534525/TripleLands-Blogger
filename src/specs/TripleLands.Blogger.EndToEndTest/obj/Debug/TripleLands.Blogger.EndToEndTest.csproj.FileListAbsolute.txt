@@ -18,3 +18,5 @@ D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bi
 D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\Spring.Core.xml
 D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.ServiceImpl.dll
 D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.ServiceImpl.pdb
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.DaoImpl.dll
+D:\tutorial\C#\TripleLands.Blogger\src\specs\TripleLands.Blogger.EndToEndTest\bin\Debug\TripleLands.Blogger.DaoImpl.pdb
